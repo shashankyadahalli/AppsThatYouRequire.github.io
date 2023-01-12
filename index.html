@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="o.css" />
+</head>
+
+<body>
+    <script src="o.js"></script>
+    <div id="wholeAl">
+        <div id="box1">
+            <p class="clock">ALARM</p>
+            <div id="clock">
+                <svg id="cir" width="60px" height="80px">
+                    <circle cx="35px" cy="55px" r="12px" fill="black"/>
+                </svg>
+                <p id="hour">
+                    <svg height="210" width="500">
+                        <line x1="3" y1="3" x2="3" y2="80" style="stroke:rgb(255,0,0);stroke-width:8" />
+                      </svg>
+                </p>
+                <p id="min">
+                    <svg height="210" width="500">
+                        <line x1="3" y1="3" x2="3" y2="100" style="stroke:rgb(255,0,0);stroke-width:4" />
+                      </svg>
+                </p>
+                <p id="sec"><svg height="210" width="500">
+                        <line x1="3" y1="3" x2="3" y2="100" style="stroke:rgb(255,0,0);stroke-width:2" />
+                      </svg>
+                </p>
+            </div>
+            <p id="home">hello</p>
+        </div>
+
+        <div id="Alar">
+            <input type="time" id="time" />
+            <div id="setTime">Set</div>
+            <audio controls>
+               <source src="Mask-Off(PagalWorld).mp3" type="audio/mp3"/>
+           </audio>
+
+            <audio controls>
+            <source src="Panda_2020_Trap_Remix_DJ_Jay (1).mp3" type="audio/mp3"/>
+           </audio>
+
+            <audio controls>
+               <source src="" type="audio/mp3"/>
+           </audio>
+
+            <div id="songPlaylist">
+            </div>
+        </div>
+
+        <div id="timer">
+            <div id='addTime'>
+                <input type="number" id="mino" />
+                <input type="number" id="seco" />
+                <input type="number" id="mili" />
+            </div>
+            <button id="set">Set</button>
+            <div id="newT">00:00:00</div>
+        </div>
+
+        <div id="todo">
+            <input type="text" id="text" /><button id="add">Add</button>
+            <div id="list">
+
+            </div>
+        </div>
+
+        <div id="weather">
+            <p id="temp">Loading..</p>
+            <p id="map"></p>
+        </div>
+
+        <a style="position: absolute;right: 40px;text-align:center;line-height:40px;height:40px;
+        bottom:300px;width:80px;border-radius: 40px;border: 1px solid black;text-decoration: none;font-family: 'DM Sans',sans-serif;" href="p.html">Click</a>
+
+    </div>
+</body>
+
+</html>

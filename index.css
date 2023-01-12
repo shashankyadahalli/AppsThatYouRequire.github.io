@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+#calculator{
+    width:400px;height:600px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px rgb(177, 176, 176);
+    position: absolute;left:50%;top:50%;
+    transform: translate(-50%,-50%);
+}
+
+#screen{
+    margin-top: 10px;
+    width: 90%;height:120px;
+    margin-left: 5%;
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgb(64, 121, 241);
+    text-align:right;font-weight: bolder;
+    font-size:60px;font-family:"DM Sans",sans-serif;
+    line-height: 180px;color:white;
+}
+
+#button{
+    width:90%;height:230px;margin-top:5%;
+    overflow:hidden;margin-left:5%;
+}
+
+#button li{
+    width:60px;height: 60px;line-height:50px;
+    border-radius: 10px;position: absolute;
+    box-shadow: 1px 1px 10px lightgrey;
+    list-style-type: none;text-align: center;
+    cursor:pointer;
+    font-size:20px;font-family:"DM Sans",sans-serif;
+}
+
+#button li:hover{
+    background-color:lightgreen;color:white;
+}
+
+#button li:nth-child(1),#button li:nth-child(2),
+#button li:nth-child(3),#button li:nth-child(11){
+    margin-top:10px;
+}
+
+#button li:nth-child(4),#button li:nth-child(5),
+#button li:nth-child(6),#button li:nth-child(12){
+    margin-top:90px;
+}
+
+#button li:nth-child(7),#button li:nth-child(8),
+#button li:nth-child(9),#button li:nth-child(13){
+    margin-top:170px;
+}
+
+#button li:nth-child(1),#button li:nth-child(4),
+#button li:nth-child(7),#button li:nth-child(10){
+    margin-left:10px;
+}
+#button li:nth-child(11),#button li:nth-child(12),#button li:nth-child(14),#button li:nth-child(13){
+    margin-left:270px;
+}
+
+#button li:nth-child(2),#button li:nth-child(5),
+#button li:nth-child(8),#button li:nth-child(16){
+    margin-left:95px;
+}
+
+#button li:nth-child(3),#button li:nth-child(6),
+#button li:nth-child(9),#button li:nth-child(17)
+{
+    margin-left:180px;
+}
+
+#button li:nth-child(10),#button li:nth-child(16),
+#button li:nth-child(17),#button li:nth-child(14){
+    margin-top:250px;
+}
+#button li:nth-child(15){
+    margin-top:330px;margin-left:10px;
+}
+#button li:nth-child(18){
+    margin-top:330px;margin-left:90px;
+}
+

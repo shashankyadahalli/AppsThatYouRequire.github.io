@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+#wholeAl {
+    width: 99%;
+    height: 800px;
+    position: absolute;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+#box1 {
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 5px 3px 19px lightgrey;
+    background: url("https://media.istockphoto.com/vectors/halloween-night-background-vector-id855571188?b=1&k=20&m=855571188&s=170667a&w=0&h=myLpv7eJBsB13X_whQJU58Z0ixfHpk7DPinSaD_rUps=");
+}
+
+#clock {
+    width: 200px;
+    height: 200px;
+    background: url("https://www.kindpng.com/picc/m/5-55539_transparent-broken-clock-clipart-transparent-background-clock-face.png");
+    background-size: 100%;
+    background-position: 2px -4px;
+    transform: translate(-50%, -30%);
+    top: 35%;
+    box-shadow: 4px 5px 10px lightgrey;
+    left: 50%;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 100px;
+    transition: ease-in-out 0.4s;
+    border: 1px solid black;
+}
+
+#box1:hover {
+    box-shadow: 10px 10px 50px grey;
+}
+
+#hour,
+#min,
+#sec {
+    width: 5px;
+    height: 180px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 48%;
+    margin-top: 4%;
+}
+
+#cir {
+    position: absolute;
+    margin-left: 32%;
+    margin-top: 23%;
+    z-index: 1;
+}
+
+#hour {
+    height: 130px;
+    margin-left: 48%;
+    margin-top: 17%;
+}
+
+#home {
+    bottom: 0%;
+    left: 30%;
+    color: rgb(101, 252, 96);
+    font-size: 30px;
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+}
+
+.clock {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 28px;
+    color: rgb(72, 105, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+#Alar {
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 450px;
+    box-shadow: 5px 6px 19px lightgrey;
+    border-radius: 10px;
+    background: url("https://media.istockphoto.com/vectors/halloween-background-with-full-moon-pumpkins-and-trees-vector-id1267484197?k=20&m=1267484197&s=612x612&w=0&h=6zqXc_096e-RrCafrTetlZy4s2bEIlD-SBJolPk8_hA=");
+}
+
+#timer {
+    width: 400px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 1080px;
+    border-radius: 10px;
+    position: absolute;
+    background: url("https://media.istockphoto.com/vectors/halloween-background-with-vampire-grim-reaper-zombies-and-witch-in-vector-id1171436852?b=1&k=20&m=1171436852&s=170667a&w=0&h=i5lW_CPUalBX7-wNtn8JZ6aGNgXypsd_lsCB5eFfvno=");
+    box-shadow: 2px 7px 20px lightgrey;
+}
+
+#timer input {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(236, 236, 17);
+    border-radius: 10px;
+    font-size: 23px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+#addTime {
+    margin-left: 23%;
+    margin-top: 40px;
+}
+
+#set,
+#setTime {
+    width: 100px;
+    font-size: 25px;
+    height: 40px;
+    text-align: center;
+    border-radius: 25px;
+    margin-left: 34%;
+    margin-top: 6%;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: rgb(66, 126, 255);
+    border: 1px solid rgb(104, 243, 104);
+}
+
+#newT {
+    font-family: "Poppins", sans-serif;
+    margin-left: 23%;
+    font-size: 50px;
+    margin-top: 10%;
+    color: white;
+}
+
+#time {
+    width: 140px;
+    height: 50px;
+    color: white;
+    font-size: 21px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(87, 87, 248);
+    border: 2px solid blue;
+    border-radius: 30px;
+}
+
+#setTime {
+    margin-left: 27px;
+    margin-top: 15px;
+}
+
+#songPlaylist li {
+    list-style-type: none;
+}
+
+audio {
+    margin-left: 40%;
+}
+
+#todo {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    bottom: 100px;
+    border-radius: 15px;
+    box-shadow: 5px 6px 12px lightgrey;
+    left: 200px;
+    overflow-x: hidden;
+    background: url("https://media.istockphoto.com/vectors/graveyard-vector-id181872488?k=20&m=181872488&s=612x612&w=0&h=IQAbr8exP5aDaFXCivdUpA3v6kuvkDUf-standHJs4k=");
+}
+
+#text {
+    margin-top: 30px;
+    margin-left: 9px;
+    border: none;
+    width: 60%;
+    color: white;
+    height: 40px;
+    background: none;
+    outline: red;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+#add {
+    width: 100px;
+    height: 35px;
+    border-radius: 18px;
+    border: 1px solid rgb(253, 100, 100);
+    background: rgb(255, 103, 103);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+#list {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#list li {
+    height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 70%;
+    overflow: hidden;
+    margin-top: 5px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    line-height: 25px;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    border: 1px solid rgb(107, 248, 107)
+}
+
+#list li input {
+    position: absolute;
+    right: 0px;
+    margin-top: 8px;
+}
+
+#weather {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 750px;
+    overflow: hidden;
+    background: url("https://cdn.pixabay.com/photo/2016/06/04/22/56/landscape-1436398__340.jpg");
+    box-shadow: 7px 9px 15px lightgrey;
+    background-repeat: no-repeat;
+}
+
+#temp {
+    position: absolute;
+    right: 50px;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#map {
+    position: absolute;
+    right: 40px;
+    top: 110px;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+}
